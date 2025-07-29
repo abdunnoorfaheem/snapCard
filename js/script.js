@@ -11,7 +11,7 @@ function display() {
     
     cardMake.innerHTML += `
         
-         <div class="text-2xl lg:text-4xl bg-[#1a5c4974] lg:px-[30px] lg:py-[15px] px-[15px] py-[8px] rounded-2xl text-white pt-4 pb-4">
+         <div class="w-[100%] lg:w-[48%] text-2xl lg:text-4xl bg-[#1a5c4974] lg:px-[30px] lg:py-[15px] px-[15px] py-[8px] rounded-2xl text-white pt-4 pb-4 my-5">
                     <h3>Name: ${item.name}</h3>
                     <h3>Designation: ${item.Designation}</h3>
                 </div>

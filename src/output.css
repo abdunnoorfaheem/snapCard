@@ -180,6 +180,9 @@
   .m-auto {
     margin: auto;
   }
+  .my-5 {
+    margin-block: calc(var(--spacing) * 5);
+  }
   .my-\[10px\] {
     margin-block: 10px;
   }
@@ -454,9 +457,29 @@
       display: flex;
     }
   }
+  .lg\:w-\[4\] {
+    @media (width >= 64rem) {
+      width: 4;
+    }
+  }
   .lg\:w-\[32\%\] {
     @media (width >= 64rem) {
       width: 32%;
+    }
+  }
+  .lg\:w-\[32\] {
+    @media (width >= 64rem) {
+      width: 32;
+    }
+  }
+  .lg\:w-\[48\%\] {
+    @media (width >= 64rem) {
+      width: 48%;
+    }
+  }
+  .lg\:w-\[48\] {
+    @media (width >= 64rem) {
+      width: 48;
     }
   }
   .lg\:flex-wrap {
